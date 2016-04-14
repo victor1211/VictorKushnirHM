@@ -15,12 +15,12 @@ public class Task5 {
         System.out.print("Enter c:");
         int c = sc.nextInt();
 
-        System.out.println("The same number");
-        if((a == b) | (a == c) | (b == c)){
+
+        if(a == b | a == c | b == c){
             System.out.println("Yes");
         }else{
             System.out.println("No");
-        }
+       }
 
 
     }
